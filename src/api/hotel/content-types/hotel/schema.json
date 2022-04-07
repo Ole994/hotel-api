@@ -12,21 +12,25 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "Hotel1": {
+    "text": {
       "type": "string"
     },
     "images": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": true
+      ]
     },
     "Date": {
       "type": "datetime"
+    },
+    "imageUrl": {
+      "type": "string"
     }
   }
 }
