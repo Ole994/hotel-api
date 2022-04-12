@@ -31,6 +31,9 @@
     },
     "imageUrl": {
       "type": "string"
+    },
+    "featured": {
+      "type": "boolean"
     }
   }
 }
