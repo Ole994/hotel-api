@@ -34,6 +34,9 @@
     },
     "featured": {
       "type": "boolean"
+    },
+    "description": {
+      "type": "text"
     }
   }
 }
